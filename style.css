@@ -40,3 +40,15 @@ li {
     background-color: white;
 }
 
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    width: 200px;
+    height: 20px;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+}
