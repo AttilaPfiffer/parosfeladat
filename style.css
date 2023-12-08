@@ -78,9 +78,9 @@ th {
         grid-template-rows: 50px auto auto 50px;
         grid-template-areas: 
                 "h"
-                "s"
+                "n"
                 "a"
-                "a";
+                "f";
     }
     article {
         grid-template-columns: 1fr;
