@@ -52,3 +52,32 @@ th {
     color: black;
     border: 1px solid black;
 }
+@media screen and (max-width: 700px){
+    body{
+        width: 100%;
+        font-size: 2vw;
+    }
+    
+    article {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 450px){
+    body{
+        width: 100%;
+        font-size: 5vw;
+    }
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px auto auto 50px;
+        grid-template-areas: 
+                "h"
+                "s"
+                "a"
+                "a";
+    }
+    article {
+        grid-template-columns: 1fr;
+    }
+}
