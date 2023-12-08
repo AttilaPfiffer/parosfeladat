@@ -101,3 +101,7 @@ nav ul li {
 li:hover {
     border: 1px solid black;
 }
+header h1 {
+    text-align: center;
+    font-size: 40px;
+}
