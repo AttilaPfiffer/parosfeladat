@@ -24,11 +24,10 @@ nav {
     grid-area: n;
 }
 
-main {
+.igazitas {
     text-align: center;
     display: grid;
-    grid-template-areas: 
-    "a" "n";
+    grid-template-columns: 1fr 1fr;
 }
 
 a {
@@ -39,4 +38,8 @@ a {
 li {
     list-style-type: none;
     background-color: white;
+}
+
+h1 { 
+    text-align: center;
 }
