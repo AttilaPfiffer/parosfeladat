@@ -28,10 +28,15 @@ footer {
     grid-area: f;
 }
 
-.igazitas {
+main {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "a n"
+    "f f" ;
+    max-width: 800px;
 }
 
 a {
@@ -42,11 +47,14 @@ a {
 li {
     list-style-type: none;
     background-color: palevioletred;
+    border: 1px solid white;
+    font-size: 20px;
 }
 
 table {
     border-collapse: collapse;
     margin: auto;
+    font-size: 20px;
 }
 
 th {
@@ -89,4 +97,7 @@ nav ul li {
     article {
         grid-template-columns: 1fr;
     }
+}
+li:hover {
+    border: 1px solid black;
 }
