@@ -1,4 +1,3 @@
-
 body {
     background-image: url(kepek/hatter.jpg);
     background-size: cover;
@@ -11,4 +10,33 @@ table img {
 caption {
     font-family:'Franklin Gothic Medium';
     font-size: 30 px;
+}
+
+header {
+    grid-area: h;
+}
+
+article {
+    grid-area: a;
+}
+
+nav {
+    grid-area: n;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    "a" "n";
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+li {
+    list-style-type: none;
+    background-color: white;
 }
