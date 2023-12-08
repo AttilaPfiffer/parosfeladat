@@ -9,7 +9,8 @@ table img {
 
 caption {
     font-family:'Franklin Gothic Medium';
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 
 header {
@@ -37,6 +38,7 @@ main {
     "a n"
     "f f" ;
     max-width: 800px;
+    margin: auto;
 }
 
 a {
@@ -97,10 +99,12 @@ nav ul li {
     article {
         grid-template-columns: 1fr;
     }
+
 }
 li:hover {
     border: 1px solid black;
 }
+
 header h1 {
     text-align: center;
     font-size: 40px;
